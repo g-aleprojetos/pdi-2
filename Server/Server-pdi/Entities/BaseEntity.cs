@@ -2,7 +2,7 @@
 
 namespace Entities
 {
-    public class BaseEntities
+    public class BaseEntity
     {
         public virtual Guid Id { get; set; }
         public string Name { get; set; }

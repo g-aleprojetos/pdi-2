@@ -1,6 +1,6 @@
 ﻿namespace Entities
 {
-    public class Led : BaseEntities
+    public class Led : BaseEntity
     {
         public string Device { get; set; }
         public string Tag { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace Entities
 {
-    public class Temperature : BaseEntities
+    public class Temperature : BaseEntity
     {
         public int Temp { get; set; }
         public int Offset { get; set; }
