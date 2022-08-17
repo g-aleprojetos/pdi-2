@@ -1,4 +1,4 @@
-﻿namespace Entities
+﻿namespace Models.Entities
 {
     public class Led : BaseEntity
     {

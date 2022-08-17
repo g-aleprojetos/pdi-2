@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server_pdi.Entities
+namespace Models.Entities
 {
     public class TimeUpdate
     {
