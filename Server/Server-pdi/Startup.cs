@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Services;
+using Services.Interface;
 
 namespace Server_pdi
 {
@@ -26,6 +28,8 @@ namespace Server_pdi
 
             services.AddDbContext<ApiContext>(options =>
                                     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IRepository, Service>();
 
             services.AddSwaggerGen(c =>
             {

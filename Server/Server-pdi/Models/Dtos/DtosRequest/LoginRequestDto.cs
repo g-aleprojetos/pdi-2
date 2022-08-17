@@ -1,4 +1,4 @@
-﻿namespace Models.Dtos
+﻿namespace Models.Dtos.DotsRequest
 {
     public class LoginRequestDto
     {

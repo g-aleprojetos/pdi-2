@@ -1,4 +1,4 @@
-﻿using Models.Dtos;
+﻿using Models.Dtos.DtosRequest;
 using Services;
 
 namespace Models.Entities
@@ -9,7 +9,7 @@ namespace Models.Entities
         public string Login { get; set; }
         public string Password { get; set; }
         public AccessType Role { get; set; }
-       // public string Token { get; set; }
+        // public string Token { get; set; }
 
         public User() { }
 
