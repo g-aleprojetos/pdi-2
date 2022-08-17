@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Entities
+namespace Models.Entities
 {
     public class BaseEntity
     {

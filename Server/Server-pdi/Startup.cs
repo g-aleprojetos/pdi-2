@@ -29,7 +29,18 @@ namespace Server_pdi
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Server_pdi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "PDI 2",
+                    Description = "BackEnd",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Alexandre Gonçalves",
+                        Email = "alexandre.sgoncalves@mrv.com.br",
+                    },
+                });
+                c.EnableAnnotations();
             });
         }
 

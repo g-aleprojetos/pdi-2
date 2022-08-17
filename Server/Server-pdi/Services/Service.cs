@@ -1,5 +1,5 @@
 ﻿using Context;
-using Entities;
+using Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using Services.Interface;
 using System;

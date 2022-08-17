@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Entities;
+using Models.Entities;
 
 namespace Services.Interface
 {

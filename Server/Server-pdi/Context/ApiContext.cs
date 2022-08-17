@@ -1,9 +1,9 @@
-﻿using Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Models.Entities;
 
 namespace Context
 {
-    public class ApiContext : DbContext 
+    public class ApiContext : DbContext
     {
         public ApiContext(DbContextOptions<ApiContext> options) : base(options)
         {
